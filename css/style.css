@@ -1,0 +1,23 @@
+#images{
+  width: 900px;
+  height:600px;
+  }
+
+#images img{
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  -webkit-transition:all 1s ease-in-out;
+  -moz-transition:all 1s ease-in-out;
+  -ms-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+  }
+
+  .active{
+  z-index:2;
+  }
+
+  .prev{
+  z-index: 1;
+  }
